@@ -6,7 +6,7 @@ set -e
 git init 
 git add -A
 git commit -m 'deploy'
-# 部署到 https://github.com/s3211t/game.git分支為 gh-pages
-git push -f https://github.com/s3211t/game.git master:gh-pages
+# 部署到 https://github.com/WilliamLinsanity/90sGame.git分支為 gh-pages
+git push -f https://github.com/WilliamLinsanity/90sGame.git master:gh-pages
 
 cd -
